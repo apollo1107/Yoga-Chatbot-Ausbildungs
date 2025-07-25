@@ -1,0 +1,130 @@
+Grundsätzlich gibt es drei Arten der Ausbildung. Yoga Grundausbildung für alle, die noch keine Yoga-Ausbildung gemacht haben. Die dauert 200 Stunden und findet an verschiedenen Orten beziehungsweise online statt. Yoga Aufbauausbildung, dazu muss man die Grundausbildung 200 Stunden schon gemacht haben, kann man 300 Stunden Aufbau machen. Oder Spezialisierungen, die kann man machen ohne eine Ausbildung zu machen oder als Vertiefung. Spezialisierungen sind Trainer für Meditation, Pranayama Trainer, Vinyasa Flow Trainer, Sanskrit School, Tantra Yoga Grundausbildung, Yoga Trainer, Yoga Gesundheitstrainer. Diese Trainer können auch Teile der 300 Stunden Aufbauausbildung sein. Man kann sie aber auch machen ohne Yoga-Lehrer oder Yoga-Lehrerin zu sein.
+
+Frag mich, was du brauchst, um eine gute Liste für die Übersicht zu kreieren.
+Hier die Links: 
+Grundausbildung: https://www.akshara.at/200h-yoga-grundausbildungen/
+ausbauausbildung 300 h: https://www.akshara.at/yoga-aufbaulehrgang-300h/
+Trainer Ausbildungen: http://akshara.at/yoga-trainer-ausbildungen
+
+programs:
+  - program_id: YTT200-MOEDLING-2025
+    track: foundation_200
+    name: "200h Yoga-Grundausbildung (Mödling / Live-Online)"
+    start_date: 2025-09-26
+    language: ["DE"]
+    delivery_modes: [onsite, online-live, retreat, selfstudy]
+    location_primary: "Yogazentrum Mödling"
+    location_retreat: "Stift St. Florian (Abschlussretreat; vor Ort empfohlen, online möglich)"
+    total_hours: 200
+    hours_breakdown: {grund:80, teaching:70, online:20, mentoring:30}
+    price_regular_eur: 3500
+    price_early_eur: 3200
+    early_bird_until: 2025-07-31
+    price_grund_only_eur: 1850
+    price_grund_only_eb_eur: 1690
+    payment_options: [monatlich, halbjährlich, vollzahlung-3pct]
+    certs: [YogaAlliance, Ö-CERT]
+    prereq_text: "Offen für Einsteiger:innen; Grundmodul auch zur persönlichen Vertiefung buchbar. Voller Abschluss = Zugang 300h Aufbau."
+    grundmodul_only: true
+    funding_auto_prompt: false   # Förderung nur auf Nachfrage nennen
+    schedule_blocks:
+      grund:
+        - {start: 2025-09-26, end: 2025-09-28, loc: moedling_or_online}
+        - {start: 2025-10-31, end: 2025-11-02, loc: moedling_or_online}
+        - {start: 2025-12-05, end: 2025-12-07, loc: moedling_or_online}
+        - {start: 2026-01-16, end: 2026-01-18, loc: moedling_or_online}
+      teaching:
+        - {start: 2026-02-20, end: 2026-02-22, loc: moedling_or_online}
+        - {date: 2026-03-07, type: uebungstag, loc: tbd_online_or_hybrid}   # bitte bestätigen
+        - {date: 2026-04-25, type: uebungstag, loc: tbd_online_or_hybrid}   # bitte bestätigen
+        - {start: 2026-05-14, end: 2026-05-17, type: abschlussretreat, loc: st_florian, onsite_recommended: true, online_possible: true}
+      online:
+        - {title: "Typische Fehlhaltungen & Korrekturen", mode: selfstudy}
+        - {title: "Unterrichtsmethodik & Sprache", mode: selfstudy}
+      mentoring:
+        - {date: 2025-10-11, loc: tbd}   # bitte bestätigen
+        - {date: 2026-01-10, loc: tbd}   # bitte bestätigen
+    link_main: "https://www.akshara.at/yoga-grundausbildung-200h/"
+    link_online: "https://www.akshara.at/200h-online-yoga-ausbildung/"
+    link_foundation: "https://www.akshara.at/yoga-foundation-training/"
+
+  - program_id: YTT200-STFLORIAN-2025
+    track: foundation_200
+    name: "200h Yoga-Ausbildung Oberösterreich (St. Florian)"
+    start_date: 2025-09-19
+    language: ["DE"]
+    delivery_modes: [onsite, retreat, selfstudy]
+    location_primary: "Yogaensemble im Stift St. Florian"
+    location_retreat: "Stift St. Florian (Abschlusswochenende)"
+    total_hours: 200
+    hours_breakdown: {grund:80, teaching:70, online:20, mentoring:30}
+    price_regular_eur: 3500
+    price_early_eur: 3200
+    early_bird_until: 2025-07-31
+    price_grund_only_eur: 1850
+    price_grund_only_eb_eur: 1690
+    payment_options: [monatlich, halbjährlich, vollzahlung-3pct]
+    certs: [YogaAlliance, Ö-CERT]
+    prereq_text: "Offen für Einsteiger:innen; vor Ort Setting im Kloster. Voller Abschluss = Zugang 300h Aufbau."
+    grundmodul_only: true
+    funding_auto_prompt: false
+    schedule_blocks:
+      grund:
+        - {start: 2025-09-19, end: 2025-09-21, loc: st_florian}
+        - {start: 2025-10-31, end: 2025-11-02, loc: st_florian}
+        - {start: 2025-12-05, end: 2025-12-07, loc: st_florian}
+        - {start: 2026-01-23, end: 2026-01-25, loc: st_florian}
+      teaching:
+        - {start: 2026-03-13, end: 2026-03-15, loc: st_florian}
+        - {date: 2026-03-28, type: uebungstag, loc: st_florian}   # nur vor Ort
+        - {date: 2026-04-25, type: uebungstag, loc: st_florian}   # nur vor Ort
+        - {start: 2026-05-14, end: 2026-05-17, type: abschlussretreat, loc: st_florian, onsite_recommended: true}
+      online:
+        - {title: "Typische Fehlhaltungen & Korrekturen", mode: selfstudy}
+        - {title: "Unterrichtsmethodik & Sprache", mode: selfstudy}
+      mentoring:
+        - {date: 2025-10-18, loc: st_florian}
+        - {date: 2026-01-10, loc: st_florian}
+    link_main: "https://www.akshara.at/yoga-ausbildung-oberoesterreich/"
+
+  - program_id: YTT200-KAERNTEN-2025
+    track: foundation_200
+    name: "200h Yoga-Ausbildung Kärnten (Völkermarkt / Yoga by Dani)"
+    start_date: 2025-09-26
+    language: ["DE"]
+    delivery_modes: [onsite, retreat, selfstudy]
+    location_primary: "Yoga by Dani, Völkermarkt"
+    location_retreat: "Stift St. Florian (Abschlussretreat; online möglich)"
+    total_hours: 200
+    hours_breakdown: {grund:80, teaching:70, online:20, mentoring:30}
+    price_regular_eur: 3500
+    price_early_eur: 3200
+    early_bird_until: 2025-07-31
+    price_grund_only_eur: 1850
+    price_grund_only_eb_eur: null  # Early-Bird Grundmodul? bitte angeben, falls vorhanden
+    payment_options: [monatlich, halbjährlich, vollzahlung-3pct]
+    certs: [YogaAlliance, Ö-CERT]
+    prereq_text: "Offen für Einsteiger:innen; Kursreihe in Kärnten. Voller Abschluss = Zugang 300h Aufbau."
+    grundmodul_only: true
+    funding_auto_prompt: false
+    schedule_blocks:
+      grund:
+        - {start: 2025-09-26, end: 2025-09-28, loc: voelkermarkt}
+        - {start: 2025-10-10, end: 2025-10-12, loc: voelkermarkt}
+        - {start: 2025-11-14, end: 2025-11-16, loc: voelkermarkt}
+        - {start: 2026-01-09, end: 2026-01-11, loc: voelkermarkt}
+      teaching:
+        - {start: 2026-02-20, end: 2026-02-22, loc: voelkermarkt}
+        - {date: 2026-03-14, type: uebungstag, loc: voelkermarkt}
+        - {date: 2026-04-17, type: uebungstag, loc: voelkermarkt}
+        - {start: 2026-05-14, end: 2026-05-17, type: abschlussretreat, loc: st_florian, onsite_recommended: true, online_possible: true}
+      online:
+        - {title: "Typische Fehlhaltungen & Korrekturen", mode: selfstudy}
+        - {title: "Unterrichtsmethodik & Sprache", mode: selfstudy}
+      mentoring:
+        - {date: 2025-10-25, loc: hybrid}
+        - {date: 2026-01-24, loc: hybrid}
+    link_main: "https://www.akshara.at/200h-yoga-ausbildung-kaernten/"
+
+
+
